@@ -84,6 +84,3 @@ console.log(user1.transfer(100));
 
 
 
-
-
-
