@@ -70,17 +70,17 @@ class bankAccount {
         }
 }
 
-const user1 = new bankAccount('Doris',900000, true, true)
+const user1 = new bankAccount('Doris',900000, false, true)
 
 // console.log(user1);
-// user1.deposit(1000)
+user1.deposit(1000)
 // console.log(user1)
 console.log(user1)
 // console.log(user1.withdraw(2000));
 
 // console.log(user1.accountType());
 // console.log(user1.deposit(110));
-console.log(user1.transfer(100));
+// console.log(user1.transfer(100));
 
 
 
