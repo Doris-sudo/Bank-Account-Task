@@ -81,6 +81,8 @@ console.log(user1)
 // console.log(user1.accountType());
 // console.log(user1.deposit(110));
 // console.log(user1.transfer(100));
+console.log(user1.generateAccountNo());
+
 
 
 
